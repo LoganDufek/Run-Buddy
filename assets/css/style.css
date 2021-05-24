@@ -154,23 +154,18 @@ font-size: 16px;
 }
 /* HERO STYLES END */
 
-
-
-.intro {text-align: center;}
-
-
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .steps {
   background-color: #fce138;
-text-align: center;}
+}
 
 .steps div{
   margin-bottom: 80px;
@@ -195,11 +190,12 @@ font-size: 23px}
 .section-title {
 font-size: 55px;
 color: #024e76;
-margin-bottom: 35px;
-padding: 0 100px 20px 100px;
 border-bottom: 3px solid;
-display: inline-block;
 text-align: center;
+padding-bottom: 20px;
+text-align: center;
+margin: 0 auto 35px auto;
+width: 50px;
 }
 .primary-border {
   border-color: #fce138;
@@ -208,7 +204,7 @@ text-align: center;
   border-color: #39a6b2;
 }
 .trainers {
-  text-align: center;
+  
 }
 .trainer {
   text-align: center;
@@ -251,7 +247,7 @@ margin-bottom: 8px;
 }
  
 .contact {
-  text-align: center;
+  
   background: #024e76;}
 
 .contact-info iframe {   width: 400px; 
@@ -285,3 +281,5 @@ color: #fce138;}
 .contact-info a {
   color: #fce138;
 }
+
+.flex-row {display: flex;}
