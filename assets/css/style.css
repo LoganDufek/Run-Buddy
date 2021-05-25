@@ -224,8 +224,11 @@ border-bottom: 3px solid;
 text-align: center;
 padding-bottom: 20px;
 margin: 0 auto 35px auto;
-display: inline-block;
+width: 50%;
 }
+
+
+
 
 
 .primary-border {
