@@ -224,7 +224,7 @@ border-bottom: 3px solid;
 text-align: center;
 padding-bottom: 20px;
 margin: 0 auto 35px auto;
-width: 50px;
+
 }
 
 
@@ -244,7 +244,7 @@ width: 50px;
 
 .trainer {
   text-align: center;
-  margin: 0 auto 20px auto;
+  margin: 20px;
   background-color: #024e76;
   color: #fce138;
   flex: 1;
@@ -315,4 +315,6 @@ color: #fce138;}
   color: #fce138;
 }
 
-.flex-row {display: flex;}
+.flex-row {display: flex;
+  width: auto;
+}
